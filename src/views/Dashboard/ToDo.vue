@@ -10,7 +10,7 @@
           Add
         </button>
         <Modal v-show="isModalAddVisible" @close="closeModal">
-          <template v-slot:header>FAKHRI MODAL</template>
+          <template v-slot:header>MEISY ANJARFIKA STECHOQ MODAL</template>
           <template v-slot:body>
             <div class="mt-3">
               <form v-on:submit.prevent="submitAddList">
@@ -49,7 +49,7 @@
               </form>
             </div>
           </template>
-          <template v-slot:footer> @footerMeme </template>
+          <template v-slot:footer> @footerMeiMei </template>
         </Modal>
         <TodoTable />
       </div>

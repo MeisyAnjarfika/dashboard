@@ -3,7 +3,7 @@
     <div class="modal-backdrop">
       <div class="modal">
         <header class="modal-header" id="modalTitle">
-          <!-- <slot name="header"> This is the default tile! </slot> -->
+          <slot name="header"> This is the default tile! </slot>
           <button
             type="button"
             class="btn-close"
@@ -17,7 +17,7 @@
           <slot name="body"> This is the default body! </slot>
         </section>
         <div class="modal-footer">
-          <!-- <slot name="footer"> This is the default footer! </slot> -->
+          <slot name="footer"> This is the default footer! </slot>
         </div>
       </div>
     </div>
